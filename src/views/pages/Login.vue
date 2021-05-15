@@ -1,14 +1,13 @@
 <template>
-  <div class="c-app flex-row align-items-center">
+  <div style="background: rgba(0, 40, 77, 1)" class="c-app flex-row align-items-center">
     <CContainer>
       <CRow class="justify-content-center">
-        <CCol md="8">
-          <CCardGroup>
+        <CCol md="5">
+          <CCardGroup style="background: #0a5198!important;">
             <CCard class="p-4">
               <CCardBody>
                 <CForm>
-                  <h1>Login</h1>
-                  <p class="text-muted">Sign In to your account</p>
+                  <h1 class="text-center">无人值守场站管理平台</h1>
                   <CInput
                     placeholder="Username"
                     autocomplete="username email"
@@ -23,33 +22,19 @@
                     <template #prepend-content><CIcon name="cil-lock-locked"/></template>
                   </CInput>
                   <CRow>
-                    <CCol col="6" class="text-left">
-                      <CButton color="primary" class="px-4">Login</CButton>
+                    <CCol style="display: flex; padding: 0">
+                      <CButton color="link" class="text-left"><input type="checkbox" />记住我的登录状态</CButton>
+                      <CButton color="link" style="margin-left: auto">忘记密码？</CButton>
                     </CCol>
-                    <CCol col="6" class="text-right">
-                      <CButton color="link" class="px-0">Forgot password?</CButton>
-                      <CButton color="link" class="d-lg-none">Register now!</CButton>
+                  </CRow>
+                  <CRow>
+                    <CCol col="12" class="text-center">
+                      <a href="/#/dashboard">
+                        <CButton color="primary" class="px-4">登录</CButton>
+                      </a>
                     </CCol>
                   </CRow>
                 </CForm>
-              </CCardBody>
-            </CCard>
-            <CCard
-              color="primary"
-              text-color="white"
-              class="text-center py-5 d-md-down-none"
-              body-wrapper
-            >
-              <CCardBody>
-                <h2>Sign up</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <CButton
-                  color="light"
-                  variant="outline"
-                  size="lg"
-                >
-                  Register Now!
-                </CButton>
               </CCardBody>
             </CCard>
           </CCardGroup>
