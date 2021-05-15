@@ -60,7 +60,9 @@
       <CIcon name="cil-shield-alt" /> Lock Account
     </CDropdownItem>
     <CDropdownItem>
-      <CIcon name="cil-lock-locked" /> Logout
+      <CHeaderNavLink to="/pages/login">
+        <CIcon name="cil-lock-locked" /> Logout
+      </CHeaderNavLink>
     </CDropdownItem>
   </CDropdown>
 </template>
