@@ -1,19 +1,6 @@
 <template>
   <div>
     <CCard>
-      <CCardHeader>
-        <strong>Standard buttons</strong>
-        <div class="card-header-actions">
-          <a 
-            href="https://coreui.io/vue/docs/components/button-components" 
-            class="card-header-action" 
-            rel="noreferrer noopener" 
-            target="_blank"
-          >
-            <small class="text-muted">docs</small>
-          </a>
-        </div>
-      </CCardHeader>
       <CCardBody>
         <CRow class="align-items-center">
           <CCol col="12" xl class="mb-3 mb-xl-0">

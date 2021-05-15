@@ -3,19 +3,6 @@
     <CRow>
       <CCol sm="6">
         <CCard>
-          <CCardHeader>
-            <strong>Credit Card </strong> <small>Form</small>
-            <div class="card-header-actions">
-              <a 
-                href="https://coreui.io/vue/docs/components/form-components" 
-                class="card-header-action" 
-                rel="noreferrer noopener" 
-                target="_blank"
-              >
-                <small class="text-muted">docs</small>
-              </a>
-            </div>
-          </CCardHeader>
           <CCardBody>
             <CRow>
               <CCol sm="12">

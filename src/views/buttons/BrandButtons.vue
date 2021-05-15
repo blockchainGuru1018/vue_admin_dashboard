@@ -4,16 +4,6 @@
       <CCard>
         <CCardHeader>
           <strong>Brand Button</strong>
-          <div class="card-header-actions">
-              <a 
-                href="https://coreui.io/vue/docs/components/button-components" 
-                class="card-header-action" 
-                rel="noreferrer noopener" 
-                target="_blank"
-              >
-                <small class="text-muted">docs</small>
-              </a>
-            </div>
         </CCardHeader>
         <CCardBody>
           <small>Usage </small>

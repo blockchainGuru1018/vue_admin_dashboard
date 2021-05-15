@@ -5,16 +5,6 @@
         <CTableWrapper :items="getShuffledUsersData()">
           <template #header>
             <CIcon name="cil-grid"/> Simple Table
-            <div class="card-header-actions">
-              <a 
-                href="https://coreui.io/vue/docs/components/nav" 
-                class="card-header-action" 
-                rel="noreferrer noopener" 
-                target="_blank"
-              >
-                <small class="text-muted">docs</small>
-              </a>
-            </div>
           </template>
         </CTableWrapper>
       </CCol>

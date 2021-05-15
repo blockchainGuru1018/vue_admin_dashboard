@@ -5,16 +5,6 @@
         <CIcon name="cil-justify-center"/>
         <strong> Pagination </strong>
         <small>size</small>
-        <div class="card-header-actions">
-          <a 
-            href="https://coreui.io/vue/docs/components/pagination" 
-            class="card-header-action" 
-            rel="noreferrer noopener" 
-            target="_blank"
-          >
-            <small class="text-muted">docs</small>
-          </a>
-        </div>
       </CCardHeader>
       <CCardBody>
         <h6>Default</h6>

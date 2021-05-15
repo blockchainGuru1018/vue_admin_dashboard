@@ -3,20 +3,6 @@
     <CRow>
       <CCol>
         <CCard>
-          <CCardHeader>
-            <CIcon name="cil-justify-center"/>
-            <strong> Bootstrap Jumbotron </strong>
-            <div class="card-header-actions">
-              <a 
-                href="https://coreui.io/vue/docs/components/jumbotron" 
-                class="card-header-action" 
-                rel="noreferrer noopener" 
-                target="_blank"
-              >
-                <small class="text-muted">docs</small>
-              </a>
-            </div>
-          </CCardHeader>
           <CCardBody>
             <CJumbotron>
               <h1 class="display-3">Bootstrap 4</h1>

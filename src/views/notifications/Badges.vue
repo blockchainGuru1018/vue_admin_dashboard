@@ -2,20 +2,6 @@
   <CRow>
     <CCol col="12" md="6">
       <CCard>
-        <CCardHeader>
-          <CIcon name="cil-justify-center"/>
-          <strong> Bootstrap Badge</strong>
-          <div class="card-header-actions">
-            <a 
-              href="https://coreui.io/vue/docs/components/badge" 
-              class="card-header-action" 
-              rel="noreferrer noopener" 
-              target="_blank"
-            >
-              <small class="text-muted">docs</small>
-            </a>
-          </div>
-        </CCardHeader>
         <CCardBody>
           <h2>Example heading <CBadge color="primary">New</CBadge></h2>
           <h3>Example heading <CBadge color="primary">New</CBadge></h3>

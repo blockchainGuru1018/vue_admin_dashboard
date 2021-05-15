@@ -2,19 +2,6 @@
   <div>
     <CCardGroup columns class="card-columns cols-2">
       <CCard>
-        <CCardHeader>
-          Line Chart
-          <div class="card-header-actions">
-            <a 
-              href="https://coreui.io/vue/docs/components/charts" 
-              class="card-header-action" 
-              rel="noreferrer noopener" 
-              target="_blank"
-            >
-              <small class="text-muted">docs</small>
-            </a>
-          </div>
-        </CCardHeader>
         <CCardBody>
           <CChartLineExample/>
         </CCardBody>

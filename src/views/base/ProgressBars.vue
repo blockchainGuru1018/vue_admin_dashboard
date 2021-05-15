@@ -1,20 +1,6 @@
 <template>
   <div>
     <CCard>
-      <CCardHeader>
-        <CIcon name="cil-justify-center"/>
-        <strong> Bootstrap Progress</strong>
-        <div class="card-header-actions">
-          <a 
-            href="https://coreui.io/vue/docs/components/progress" 
-            class="card-header-action" 
-            rel="noreferrer noopener" 
-            target="_blank"
-          >
-            <small class="text-muted">docs</small>
-          </a>
-        </div>
-      </CCardHeader>
       <CCardBody>
         <CProgress :value="counter" :max="max" show-percentage animated></CProgress>
         <CProgress class="mt-1" :max="max" show-value>

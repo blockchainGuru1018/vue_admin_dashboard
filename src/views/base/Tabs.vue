@@ -3,19 +3,6 @@
     <CRow>
       <CCol xs="12" lg="6">
         <CCard>
-          <CCardHeader>
-            Tabs
-            <div class="card-header-actions">
-              <a 
-                href="https://coreui.io/vue/docs/components/tabs" 
-                class="card-header-action" 
-                rel="noreferrer noopener" 
-                target="_blank"
-              >
-                <small class="text-muted">docs</small>
-              </a>
-            </div>
-          </CCardHeader>
           <CCardBody>
             <CTabs>
               <CTab title="Home" active>

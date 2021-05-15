@@ -1,20 +1,6 @@
 <template>
   <div>
     <CCard>
-      <CCardHeader>
-        <CIcon name="cil-justify-center"/>
-        <strong> Bootstrap Popovers</strong>
-        <div class="card-header-actions">
-          <a 
-            href="https://coreui.io/vue/docs/directives/popover" 
-            class="card-header-action" 
-            rel="noreferrer noopener" 
-            target="_blank"
-          >
-            <small class="text-muted">docs</small>
-          </a>
-        </div>
-      </CCardHeader>
       <CCardBody>
         <CRow>
           <CCol col="6">

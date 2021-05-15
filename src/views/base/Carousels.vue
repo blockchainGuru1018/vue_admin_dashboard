@@ -2,20 +2,6 @@
   <CRow>
     <CCol md="12" lg="7">
       <CCard>
-        <CCardHeader>
-          <CIcon name="cil-justify-center"/>
-          <strong> Bootstrap Carousel</strong>
-          <div class="card-header-actions">
-            <a 
-              href="https://coreui.io/vue/docs/components/carousel" 
-              class="card-header-action" 
-              rel="noreferrer noopener" 
-              target="_blank"
-            >
-              <small class="text-muted">docs</small>
-            </a>
-          </div>
-        </CCardHeader>
         <CCardBody>
           <CCarousel
             arrows
