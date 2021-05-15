@@ -18,24 +18,17 @@
       </CCol>
     </CRow>
 
-    <CRow>
-      <CCol lg="6">
-        <CTableWrapper
-          :items="getShuffledUsersData()"
-          small
-          caption="Condensed Table"
-        />
-      </CCol>
+<!--    <CRow>-->
+<!--      <CCol lg="10" class="m-auto">-->
+<!--        <CTableButtons />-->
+<!--      </CCol>-->
+<!--    </CRow>-->
 
-      <CCol lg="6">
-        <CTableWrapper
-          :items="getShuffledUsersData()"
-          fixed
-          border
-          caption="Bordered Table"
-        />
-      </CCol>
-    </CRow>
+<!--    <CRow>-->
+<!--      <CCol lg="8" class="m-auto">-->
+<!--        <CTableModals />-->
+<!--      </CCol>-->
+<!--    </CRow>-->
 
     <CRow>
       <CCol sm="12">
